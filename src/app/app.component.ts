@@ -10,7 +10,7 @@ import { ProductsService } from './services/product.service';
 })
 export class AppComponent implements OnInit {
   title = 'first-ng-app';
-
+  term = '';
   products$: Observable<IProduct[]>;
   // products: IProduct[] = [];
   loading = false;
